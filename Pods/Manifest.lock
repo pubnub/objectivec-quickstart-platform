@@ -1,0 +1,18 @@
+PODS:
+  - PubNub (4.13.1):
+    - PubNub/Core (= 4.13.1)
+  - PubNub/Core (4.13.1)
+
+DEPENDENCIES:
+  - PubNub (~> 4)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PubNub
+
+SPEC CHECKSUMS:
+  PubNub: 818ec3a5277e86029afc9113440104701541dbf7
+
+PODFILE CHECKSUM: cbb897d2dabaa089957a51e9438b223a248ec249
+
+COCOAPODS: 1.9.1

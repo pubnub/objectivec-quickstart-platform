@@ -46,7 +46,7 @@ NS_ASSUME_NONNULL_END
     // replace the key placeholders with your own PubNub publish and subscribe keys
     PNConfiguration *pnconfig = [PNConfiguration configurationWithPublishKey:@"myPublishKey"
                                                                 subscribeKey:@"mySubscribeKey"];
-    pnconfig.uuid = @"theClientUUID";
+    pnconfig.uuid = @"ReplaceWithYourClientIdentifier";
     self.pubnub = [PubNub clientWithConfiguration:pnconfig];
 
     [self.pubnub addListener:self];
